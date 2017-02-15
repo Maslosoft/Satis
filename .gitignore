@@ -8,3 +8,8 @@ phpunit.xml
 composer.phar
 composer.lock
 satis.phar
+/build/
+/.php_cs.cache
+/composer.phar
+/phpunit.xml
+/satis.phar
