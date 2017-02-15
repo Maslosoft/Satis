@@ -1,3 +1,6 @@
 #!/bin/bash
 cd /var/www/packages
-./bin/satis build > /dev/null
+if [ -f "lock/do" ];then
+    ./bin/satis build > /dev/null
+    rm -f "lock/do"
+fi
