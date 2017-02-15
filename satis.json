@@ -1,0 +1,53 @@
+{
+    "name": "Maslosoft",
+    "homepage": "https://packages.maslosoft.com",
+    "output-dir": "./",
+    "repositories": [
+	{
+	    "type": "vcs",
+	    "url": "git@bitbucket.org:Maslosoft/asclepius.git"
+	},
+	{
+	    "type": "vcs",
+	    "url": "git@bitbucket.org:Maslosoft/bibliomatic.git"
+	},
+	{
+	    "type": "vcs",
+	    "url": "git@bitbucket.org:Maslosoft/hi5edit.git"
+	},
+	{
+	    "type": "vcs",
+	    "url":"git@bitbucket.org:Maslosoft/menulis.git"
+	},
+	{
+	    "type": "vcs",
+	    "url":"git@bitbucket.org:pmaselkowski/gpwtrader.git"
+	},
+	{
+	    "type": "vcs",
+	    "url": "git@bitbucket.org:Maslosoft/camitri.git"
+	},
+	{
+	    "type": "vcs",
+	    "url": "git@bitbucket.org:Maslosoft/ssoproxy.git"
+	},
+	{
+	    "type": "vcs",
+	    "url": "git@bitbucket.org:Maslosoft/ilmatarsocial.git"
+	},
+	{
+	    "type": "vcs",
+	    "url": "git@bitbucket.org:Maslosoft/ilmatarnotify.git"
+	},
+	{
+	    "type": "vcs",
+	    "url": "git@bitbucket.org:Maslosoft/features.git"
+	},
+	{
+	    "type": "vcs",
+	    "url": "git@bitbucket.org:Maslosoft/gallery.git"
+	}
+	
+    ],
+    "require-all": true
+}

@@ -3,6 +3,7 @@
 /.idea
 /.buildpath
 /vendor
+/include
 phpunit.xml
 composer.phar
 composer.lock

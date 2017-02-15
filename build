@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /var/www/packages
+./bin/satis build > /dev/null
