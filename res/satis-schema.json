@@ -72,6 +72,10 @@
                 "checksum": {
                     "type": "boolean",
                     "description": "If false, will not provide the sha1 checksum for the dist files."
+                },
+                "ignore-filters": {
+                    "type": "boolean",
+                    "description": "Ignore filters when looking for files in the package."
                 }
             }
         },
@@ -120,6 +124,10 @@
         "providers": {
             "type": "boolean",
             "description": "If true, dump package providers."
+        },
+        "providers-history-size": {
+            "type": "integer",
+            "description": "Optional integer to be used for keeping a number of files that would otherwise be pruned."
         },
         "twig-template": {
             "type": "string",
@@ -248,6 +256,10 @@
         "notify-batch": {
             "type": "string",
             "description": "a URL that will be called every time a user installs a package."
+        },
+        "_comment": {
+            "type": ["array", "string"],
+            "description": "A key to store comments in"
         }
     }
 }
