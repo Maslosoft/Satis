@@ -1,0 +1,132 @@
+{
+    "name": "Maslosoft",
+    "homepage": "http://packages.maslosoft.com",
+    "output-dir": "./",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/asclepius.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/bibliomatic.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/hi5edit.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/cms.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:pmaselkowski/gpwtrader.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/software.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/ssoproxy.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/social.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/notify.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/features.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/gallery.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/kundo.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/orgs.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/sshkeys.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/isp.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/ispconfig.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/mongo-manager.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/mongo-manager-local.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/mongo-manager-ovh.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/charts.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/stats.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/shop.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/df.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/crm.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/queue.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/widget-examples.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/hosting.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/advertising.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:Maslosoft/oauth2msft.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@maslosoft.com:Maslosoft/oauth2server.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/fc.git"
+        }
+    ],
+    "require-all": true
+}

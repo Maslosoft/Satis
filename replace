@@ -1,0 +1,38 @@
+#!/usr/bin/env php
+<?php
+$path = __DIR__ . '/satis.json';
+$usage = "replace source-repo-url destination-repo-url" . PHP_EOL;
+if(empty($argv[1]))
+{
+    echo $usage;
+    exit;
+}
+if(empty($argv[2]))
+{
+    echo $usage;
+    exit;
+}
+$src = $argv[1];
+$dst = $argv[2];
+$data = file_get_contents($path);
+if(strpos($data, $dst) !== false)
+{
+    echo "Repository $dst already exists" . PHP_EOL;
+    exit;
+}
+if(strpos($data, $src) !== false)
+{
+    echo "Updating repo $src to $dst" . PHP_EOL;
+    $data = str_replace($src, $dst, $data);
+}
+else
+{
+    echo "Adding repo $dst" . PHP_EOL;
+    $json = json_decode($data, true);
+    $json['repositories'][] = [
+	'type' => 'vcs',
+	'url' => $dst
+    ];
+    $data = json_encode($json, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+}
+file_put_contents($path, $data);

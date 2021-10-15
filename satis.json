@@ -3,51 +3,222 @@
     "homepage": "https://packages.maslosoft.com",
     "output-dir": "./",
     "repositories": [
-	{
-	    "type": "vcs",
-	    "url": "git@bitbucket.org:Maslosoft/asclepius.git"
-	},
-	{
-	    "type": "vcs",
-	    "url": "git@bitbucket.org:Maslosoft/bibliomatic.git"
-	},
-	{
-	    "type": "vcs",
-	    "url": "git@bitbucket.org:Maslosoft/hi5edit.git"
-	},
-	{
-	    "type": "vcs",
-	    "url":"git@bitbucket.org:Maslosoft/menulis.git"
-	},
-	{
-	    "type": "vcs",
-	    "url":"git@bitbucket.org:pmaselkowski/gpwtrader.git"
-	},
-	{
-	    "type": "vcs",
-	    "url": "git@bitbucket.org:Maslosoft/camitri.git"
-	},
-	{
-	    "type": "vcs",
-	    "url": "git@bitbucket.org:Maslosoft/ssoproxy.git"
-	},
-	{
-	    "type": "vcs",
-	    "url": "git@bitbucket.org:Maslosoft/ilmatarsocial.git"
-	},
-	{
-	    "type": "vcs",
-	    "url": "git@bitbucket.org:Maslosoft/ilmatarnotify.git"
-	},
-	{
-	    "type": "vcs",
-	    "url": "git@bitbucket.org:Maslosoft/features.git"
-	},
-	{
-	    "type": "vcs",
-	    "url": "git@bitbucket.org:Maslosoft/gallery.git"
-	}
-	
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/asclepius.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/bibliomatic.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/hi5edit.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/cms.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/software.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/social.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/notify.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/features.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/gallery.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/kundo.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/orgs.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/isp.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/ispconfig.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/mongo-manager.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/mongo-manager-local.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/mongo-manager-ovh.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/charts.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/stats.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/shop.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/df.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/crm.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/queue.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/widget-examples.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/hosting.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/advertising.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/fc.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Bots/BitTrader.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/Playlist.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Geo/GisSector.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/ssh-keys.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/sso-proxy.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/oauth2-msft.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/oauth2-server.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/gpwtrader.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Themes/maslosoft.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/utter-trade.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/currencies.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/freestyler.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/ipgeoloc.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Websites/bitonaires.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Themes/maslo71miasto.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Websites/tortoisegit.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Websites/dredy.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Websites/makjaweli.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Websites/boardrider.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Websites/martship.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/awe-share.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/binder.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/bittrader.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/cache.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/mongofill.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/playlist.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/sprite.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/projects.git"
+        }
     ],
     "require-all": true
 }

@@ -1,6 +1,10 @@
 #!/bin/bash
 cd /var/www/packages
 if [ -f "lock/do" ];then
-    ./bin/satis build > /dev/null
-    rm -f "lock/do"
+    if [ ! -f "lock/busy" ]; then
+	touch "lock/busy"
+	./bin/satis build > /dev/null
+	rm -f "lock/do"
+	rm -f "lock/busy"
+    fi
 fi

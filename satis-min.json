@@ -1,0 +1,12 @@
+{
+    "name": "Maslosoft",
+    "homepage": "http://packages.maslosoft.com",
+    "output-dir": "./",
+    "repositories": [
+	{
+	    "type": "vcs",
+	    "url": "git@bitbucket.org:Maslosoft/queue.git"
+	}
+    ],
+    "require-all": true
+}
