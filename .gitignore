@@ -20,3 +20,5 @@ satis.phar
 /.php-cs-fixer.cache
 /.phpunit.result.cache
 /resultCache.php
+/p2
+packages.json

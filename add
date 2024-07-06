@@ -1,0 +1,23 @@
+#!/usr/bin/php
+<?php
+if(!array_key_exists(1, $argv))
+{
+    echo "Missing repository URL" . PHP_EOL;
+    exit();
+}
+$newUrl = $argv[1];
+$json = file_get_contents(__DIR__. '/satis.json');
+$config = json_decode($json);
+foreach($config->repositories as $repo)
+{
+    if($repo->url !== $newUrl)
+    {
+	$newRepo = new stdClass;
+	$newRepo->type = 'vcs';
+	$newRepo->url = $newUrl;
+	$config->repositories[] = $newRepo;
+	break;
+    }
+}
+file_put_contents(__DIR__ . '/new-satis.json', json_encode($config, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
+

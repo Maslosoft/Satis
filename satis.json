@@ -1,5 +1,5 @@
 {
-    "name": "Maslosoft",
+    "name": "maslosoft/packages",
     "homepage": "https://packages.maslosoft.com",
     "output-dir": "./",
     "repositories": [
@@ -109,11 +109,11 @@
         },
         {
             "type": "vcs",
-            "url": "peter@git.maslosoft.com:/git/Bots/BitTrader.git"
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/bittrader.git"
         },
         {
             "type": "vcs",
-            "url": "peter@git.maslosoft.com:/git/Maslosoft/Playlist.git"
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/playlist.git"
         },
         {
             "type": "vcs",
@@ -213,11 +213,23 @@
         },
         {
             "type": "vcs",
-            "url": "peter@git.maslosoft.com:/git/Maslosoft/sprite.git"
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/team.git"
         },
         {
             "type": "vcs",
-            "url": "peter@git.maslosoft.com:/git/Maslosoft/projects.git"
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/ltupdate.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/faker.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Geo/pinezki.git"
+        },
+        {
+            "type": "vcs",
+            "url": "peter@git.maslosoft.com:/git/Maslosoft/df-dev.git"
         }
     ],
     "require-all": true
